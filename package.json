@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "textGen": "node textGen.js",
+    "textSumm": "node textSumm.js",
+    "chatBot": "node chatBot.js"
   },
   "keywords": [],
   "author": "",
