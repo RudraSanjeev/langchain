@@ -7,13 +7,16 @@
   "scripts": {
     "textGen": "node textGen.js",
     "textSumm": "node textSumm.js",
-    "chatBot": "node chatBot.js"
+    "chatBot": "node chatBot.js",
+    "retriever": "node retriever.js",
+    "demo": "node demo.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@langchain/google-genai": "^0.0.7",
+    "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.4.0",
     "langchain": "^0.1.5"
   }
