@@ -9,15 +9,23 @@
     "textSumm": "node textSumm.js",
     "chatBot": "node chatBot.js",
     "retriever": "node retriever.js",
+    "memoryRedis": "node memoryRedis.js",
+    "agent": "node agent.js",
+    "stream": "node stream.js",
     "demo": "node demo.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@langchain/community": "^0.0.21",
     "@langchain/google-genai": "^0.0.7",
+    "@upstash/redis": "^1.28.2",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.4.0",
-    "langchain": "^0.1.5"
+    "i": "^0.3.7",
+    "langchain": "^0.1.5",
+    "npm": "^10.4.0",
+    "serpapi": "^2.0.0"
   }
 }

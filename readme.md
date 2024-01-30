@@ -43,4 +43,5 @@ Run the summarization script with the following command:
 ```bash
 npm run textGen  # to run textGen app
 npm run textSumm # to run textSumm app
+npm run chatBot # to run chatBot app
 ```
